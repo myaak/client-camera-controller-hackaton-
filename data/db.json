@@ -1,0 +1,20 @@
+{
+  "camerasList": [
+    {
+      "title": "proizv1",
+      "link": "videos/cam1.mp4",
+      "id": 0
+    },
+    {
+      "title": "cam",
+      "link": "",
+      "id": 1
+    },
+    {
+      "title": "ll",
+      "link": "http://",
+      "id": 2
+    }
+  ],
+  "Zones": []
+}
