@@ -8,8 +8,6 @@ https://github.com/Valetron/hackaton0922
 #### Установка зависимостей
 Установить *npm*, *node.js*.
 #### Сборка проекта
-1. Переходим в папку front
-2. Ввести
 ```
 npm install
 npm start
