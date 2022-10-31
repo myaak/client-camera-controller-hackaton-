@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player';
 function App() {
   const [active_Theme, setActiveTheme] = useState<boolean>(true)
   const [activeAddCamera, setActiveAddCamera] = useState<boolean>(false)
-  const [cameraArray, setCameraArray] = useState<any>(null)
+  const [cameraArray, setCameraArray] = useState<Array<Object>>(null)
   const [activeEditor, setAcitveEditor] = useState<boolean>(false)
   const [activeCamera, setActiveCamera] = useState<number>(cameraArray !== null && cameraArray !== undefined ? cameraArray[0].id : 0)
   const [activeCanvas, setActiveCanvas] = useState<boolean>(false)
@@ -13,7 +13,7 @@ function App() {
   const [addedCamera, setAddedCamera] = useState<boolean>(false)
   const [changedProps, setChangedProps] = useState<boolean>(false)
   const [activeLinkVideoURL, setActiveLinkVideoURL] = useState<string>('')
-  const [activeCameraShapes, setCameraShapes] = useState<any>([])
+  const [activeCameraShapes, setCameraShapes] = useState<Array<Object>>([])
   const [canvasPosted, setCanvasPosted] = useState<boolean>(false)
 
 
